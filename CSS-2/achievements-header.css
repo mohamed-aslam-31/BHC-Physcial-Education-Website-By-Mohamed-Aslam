@@ -1,0 +1,420 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-size:10px;
+    scroll-behavior: smooth;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width:100%;
+    height:100vh;
+    background-attachment: fixed;
+    background-size:cover;
+    background-image: url(../images/header-display/zyro-image.png);
+    background-blend-mode: multiply;
+    overflow-x: hidden;
+    object-fit: cover;
+    background-color: #00000050;
+    background-position: center center;
+    
+}
+
+
+.achievement-header-nav-container{
+    width:100%;
+    height:fit-content;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index:100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.achievement-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.achievement-logo-desktop{
+width:6rem;
+padding:0.5rem;
+}
+.achievement-logo-media-query{
+    display:none;
+    width:26rem;
+    height: fit-content;
+    padding:0.5rem;
+}
+.achievement-header-nav-container nav{
+    display:flex;
+    flex-direction: row;
+}
+.achievement-nav-register_button-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+}
+
+.achievement-nav-register_button-container-a{
+color: #000000;
+text-decoration: none;
+font-size:1.6rem;
+padding:2rem 4rem;
+background-color: white;
+border-radius: 0.2rem;
+transition-duration:0.5s;
+
+}
+.achievement-nav-register_button-container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  
+
+}
+.achievement-nav-register_button-container-3-a{
+color: #000000;
+text-decoration: none;
+font-size:1.4rem;
+padding:1.5rem 3rem;
+background-color: white;
+border-radius: 0.2rem;
+transition-duration:0.5s;
+}
+.achievement-nav-register_button-container-3-a:hover,
+.achievement-nav-register_button-container-a:hover{
+    background-color:red;
+    color: white;
+}
+.achievement-nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.achievement-nav-ul-li{
+padding:3rem 2rem;
+cursor: pointer;
+text-align: center;
+
+}
+.achievement-nav-ul-li-a{
+    text-decoration: none;
+    color: white;
+    font-size:1.4rem;
+    transition-duration:0.4s;
+}
+
+.achievement-nav-ul-li:hover .achievement-nav-ul-li-a{
+color: red;
+padding:1rem;
+font-size: 1.4rem;
+}
+.arrow-down{
+    transition-duration:0.4s;
+    margin-left:0.5rem;
+}
+.achievement-nav-ul-li:hover .arrow-down{
+  transform: rotate(90deg);
+}
+.achievement-nav-ul-li-sub_ul{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    padding:1rem;
+    background-color: #0000009a;
+    position: absolute;
+    margin-top:3rem;
+    display: none;
+    border-bottom: 0.3rem solid red;
+    
+
+}
+.achievement-nav-ul-li-sub_ul-li{
+    padding:1rem;
+    text-align: left;
+}
+.achievement-nav-ul-li-sub_ul-li-a{
+    font-size:1.5rem;
+    color: white;
+    transition-duration:0.4s;
+    text-decoration: none;
+   
+}
+.achievement-nav-ul-li-sub_ul-li:hover .achievement-nav-ul-li-sub_ul-li-a{
+    color: red;
+    font-size: 1.6rem;
+    padding:1rem;
+}
+.achievement-nav-ul-li:hover .achievement-nav-ul-li-sub_ul{
+    display:flex;
+}
+.achievement-nav-menu-container{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.achievement-nav-menu-container{
+    display: none;
+    padding: 2rem;
+}
+.achievement-nav-menu-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:3.8rem;
+    height:0.3rem;
+    border-radius:0.3rem;
+  
+    background-color:white;
+   
+}
+.achievement-nav-menu-container div:nth-child(2),
+.achievement-nav-menu-container div:nth-child(3){
+    margin-top:1rem;
+}
+
+.achievement-nav-register_button-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1rem;
+}
+.achievement-nav-register_button-container-2-a{
+color: #000000;
+text-decoration: none;
+font-size:1.4rem;
+padding:1.5rem 3rem;
+background-color: white;
+border-radius: 0.2rem;
+transition-duration:0.5s;
+}
+
+.achievement-nav-register_button-container-2-a:hover{
+    background-color:red;
+    color: white;
+}
+.achievement-nav-close-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    display:none;
+
+}
+.achievement-nav-close-menu-container a{
+    font-size:5.5rem;
+    text-decoration: none;
+    color: white;
+    transition-duration:0.5s;
+    
+}
+.achievement-nav-close-menu-container a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.achievement-header-heading-container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    >h1{
+        letter-spacing:0.2rem;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-size:6rem;
+        color: rgba(240, 248, 255, 0.767);
+        position: relative;
+        top:3rem;
+        font-family:'Lato';
+        text-shadow:0px 5px 15px rgba(0, 0, 0, 0.56);
+    }
+
+}
+
+.achievement-header-heading-container h1 .text-container {
+    display: inline-flex;
+    flex-direction: column;
+    height: 4.5rem;
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    
+  }
+  
+  .achievement-header-heading-container h1 .text-container span {
+    height: 5rem;
+    width:100%;
+    color: rgb(243, 244, 246);
+    text-shadow:0px 5px 5px rgba(0, 0, 0, 0.63);
+    animation: moveUp 15s linear infinite;
+    font-size:3.5rem;
+    font-family:'Lato';
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(255, 68, 0, 0.782);
+  }
+  
+  
+  @keyframes moveUp{
+    0% {
+      transform: translateY(0);
+      opacity:0.5;
+      
+    }
+    
+    5% {
+      transform: translateY(0);
+      opacity:1;
+     
+      
+    }
+  
+    15% {
+      transform: translateY(-4.5rem);
+      opacity:0.5;
+     
+      
+    }
+  
+    25% {
+      transform: translateY(-4.5rem);
+      opacity:1;
+     
+    }
+  
+    35% {
+      transform: translateY(-8.5rem);
+      opacity:0.5;
+      
+    }
+  
+    45% {
+      transform: translateY(-8.5rem);
+      opacity:1;
+      
+    }
+  
+    55% {
+      transform: translateY(-12.5rem);
+      opacity:0.5;
+     
+    }
+  
+    65% {
+      transform: translateY(-12.5rem);
+      opacity:1;
+      
+    }
+  
+    75% {
+      transform: translateY(-16.5rem);
+      opacity:0.5;
+      
+    }
+    85% {
+        transform: translateY(-16.5rem);
+        opacity:1;
+       
+      }
+    
+   
+    95% {
+      transform: translateY(0rem);
+      opacity:1;
+     
+      
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity:1;
+     
+    }
+  }
+  
+  .arrow-animation-container{
+    width:100%;
+    height:fit-content;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    >i{
+       
+        border: solid rgb(208, 205, 205);
+        border-width: 0 1.8rem 1.8rem 0;
+        display: inline-block;
+        padding: 2.5rem;
+        transform: rotate(45deg);
+        position: relative;
+       
+    }
+  }
+  .arrow-animation-container i:nth-child(1){
+animation:dd 2.5s infinite;
+  }
+  .arrow-animation-container i:nth-child(2){
+    animation:dd2 3s infinite;
+      }
+  @keyframes dd {
+    
+  from{
+   top:0;
+   opacity:0;
+  }
+  to{
+top:8rem;
+opacity:1;
+  }
+  
+
+    
+  }
+  @keyframes dd2 {
+    
+    from{
+     top:-8rem;
+     opacity:0;
+    }
+    to{
+  top:8rem;
+  opacity:1;
+    }
+    
+  
+      
+    }
+
+
+    
+
+
+
+ 
+  

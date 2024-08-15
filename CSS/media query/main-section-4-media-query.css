@@ -1,0 +1,193 @@
+@media only screen and (max-width:1270px){
+    .football-player-image{
+        width:fit-content;
+        height:45rem;
+        bottom:5%;
+   }
+    #ball-image img{
+        width:fit-content;
+        height:5rem;
+   }
+}
+@media only screen and (max-width:1000px){
+    .football-player-image{
+        width:fit-content;
+        height:45rem;
+        bottom:5%;
+        position: absolute;
+        left:-10%;
+   }
+    #ball-image img{
+        width:fit-content;
+        height:5rem;
+   }
+}
+@media only screen and (max-width:870px){
+    .heading-football{
+        font-size:4rem;
+   }
+    .football-player-image{
+        position: absolute;
+        transform: none;
+        bottom:0px;
+        left:10%;
+   }
+    .graphics-container-2 {
+        position: relative;
+        width: 100%;
+        min-height:fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+   }
+    .heading-football{
+        font-size:3rem;
+   }
+    .football-player-image{
+        width:fit-content;
+        height:32rem;
+   }
+    #ball-image img{
+        width:fit-content;
+        height:3rem;
+   }
+    #number-anime,
+    #number-anime-2,
+    #number-anime-3,
+    #number-anime-4{
+        font-size:4rem;
+   }
+    #football-number-1 h3,
+    #football-number-2 h3,
+    #football-number-3 h3,
+    #football-number-4 h3{
+        font-size:2rem;
+   }
+}
+@media only screen and (max-width:670px){
+    .football-player-image{
+        position: absolute;
+        transform: none;
+        bottom:0px;
+        left:5%;
+   }
+    .graphics-container-2 {
+        position: relative;
+        width: 100%;
+        min-height:fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+   }
+    .heading-football{
+        font-size:3rem;
+   }
+    .football-player-image{
+        width:fit-content;
+        height:30rem;
+   }
+    #ball-image img{
+        width:fit-content;
+        height:3rem;
+   }
+    #number-anime,
+    #number-anime-2,
+    #number-anime-3,
+    #number-anime-4{
+        font-size:3.5rem;
+   }
+    #football-number-1 h3,
+    #football-number-2 h3,
+    #football-number-3 h3,
+    #football-number-4 h3{
+        font-size:1.5rem;
+   }
+}
+@media only screen and (max-width:500px){
+    .football-player-image{
+        position: absolute;
+        transform: none;
+        bottom:0px;
+        left:2%;
+   }
+    .graphics-container-2 {
+        position: relative;
+        width: 100%;
+        min-height:fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+   }
+    .heading-football{
+        font-size:2rem;
+        padding:1rem;
+   }
+    .football-player-image{
+        width:fit-content;
+        height:22rem;
+   }
+    #ball-image img{
+        width:fit-content;
+        height:2rem;
+   }
+    #number-anime,
+    #number-anime-2,
+    #number-anime-3,
+    #number-anime-4{
+        font-size:3rem;
+   }
+    #football-number-1 h3,
+    #football-number-2 h3,
+    #football-number-3 h3,
+    #football-number-4 h3{
+        font-size:1rem;
+   }
+}
+@media only screen and (max-width:360px){
+    .football-player-image{
+        position: absolute;
+        transform: none;
+        bottom:0px;
+        left:0%;
+   }
+    .graphics-container-2 {
+        position: relative;
+        width: 100%;
+        min-height:fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+   }
+    .heading-football{
+        font-size:2rem;
+        padding:1rem;
+   }
+    .football-player-image{
+        width:fit-content;
+        height:20rem;
+   }
+    #ball-image img{
+        width:fit-content;
+        height:2rem;
+   }
+    #number-anime,
+    #number-anime-2,
+    #number-anime-3,
+    #number-anime-4{
+        font-size:2.6rem;
+   }
+    #football-number-1 h3,
+    #football-number-2 h3,
+    #football-number-3 h3,
+    #football-number-4 h3{
+        font-size:0.8rem;
+   }
+}

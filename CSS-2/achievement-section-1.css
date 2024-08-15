@@ -1,0 +1,613 @@
+.achievement-section-1 {
+  width: 100%;
+  height: fit-content;
+  margin: 5rem 0rem;
+}
+section {
+  margin: 4rem 0rem;
+}
+.achievement-section-1 h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.international-heading,
+.bharathidasan-heading {
+  padding: 3rem;
+  font-style: italic;
+  color: #333;
+}
+
+.international-container {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-evenly;
+}
+.international-container-top,
+.bharathidasan-container-top {
+  width: 90%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 2fr);
+  place-items: center;
+  padding: 5rem 0rem;
+}
+.bharathidasan-container-top-2,
+.international-container-top-2,
+.bharathidasan-team-games-container,
+.international-team-games-container {
+  padding-top: 5rem;
+  width: 95%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 2fr);
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5rem;
+}
+
+.international-card,
+.bharathidasan-card {
+  width: 90%;
+  height: 50vh;
+  background-color: #444;
+  color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  position: relative;
+}
+
+.bharathidasan-card-img,
+.international-card-img {
+  flex-basis: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: rgb(195, 192, 192);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.bharathidasan-card-img img,
+.international-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.bharathidasan-card-details,
+.international-card-details {
+  position: absolute;
+  flex-basis: 30%;
+
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0rem;
+  bottom: 0px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom: 3px solid orangered;
+}
+
+.bharathidasan-card-details-1 h2,
+.international-card-details-1 h2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.5rem;
+  /* padding:0rem 0.5rem; */
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  padding: 0.2rem 0rem;
+}
+.bharathidasan-card-details .bharathidasan-card-details-2 h2,
+.international-card-details .international-card-details-2 h2 {
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0rem 0.5rem;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0.1rem 0rem;
+  padding-top: 0.2rem;
+  text-transform: uppercase;
+}
+.bharathidasan-card-details p,
+.international-card-details p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+  text-transform: uppercase;
+
+  /* color: rgb(19, 108, 156); */
+}
+.bharathidasan-card-details-1,
+.international-card-details-1 {
+  text-transform: uppercase;
+  background-color: orangered;
+  display: flex;
+  padding: 0rem 0rem;
+  width: 100%;
+  height: fit-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bharathidasan-card-details .bharathidasan-card-details-2,
+.international-card-details .international-card-details-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bharathidasan-card-details-1 span,
+.international-card-details-1 span {
+  width: 1rem;
+  height: 1rem;
+  background-color: rgba(255, 255, 255, 0.913);
+  border-radius: 50%;
+}
+.bharathidasan-card-details h1,
+.international-card-details h1 {
+  width: 100%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  padding-bottom: 0.3rem;
+  letter-spacing: 0.1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.bharathidasan-card-details .bharathidasan-card-details-2 span,
+.international-card-details .international-card-details-2 span {
+  width: 15%;
+  height: 0.1rem;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+.bharathidasan-card .achievement-medal-gold,
+.bharathidasan-card .achievement-medal-sliver,
+.bharathidasan-card .achievement-medal-bronze,
+.international-card .achievement-medal-gold,
+.international-card .achievement-medal-sliver,
+.international-card .achievement-medal-bronze {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.bharathidasan-heading,
+.international-heading {
+  height: 10vh;
+  background-color: orangered;
+  margin: 8rem 0rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.bharathidasan-heading-1,
+.international-heading-1 {
+  flex-basis: 25%;
+  background-color: rgb(255, 255, 255);
+  clip-path: polygon(65% 0%, 95% 48%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
+  position: relative;
+  /* box-shadow: rgba(50, 50, 93, 0.0) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.bharathidasan-heading-2,
+.international-heading-2 {
+  flex-basis: 60%;
+  background-color: orangered;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > h1 {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+.bharathidasan-heading-3,
+.international-heading-3 {
+  flex-basis: 25%;
+  background-color: rgb(255, 255, 255);
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 25% 100%, 8% 50%, 35% 0);
+  /* box-shadow: rgba(50, 50, 93, 0.0) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.bharathidasan-option-container,
+.international-option-container {
+  width: 92%;
+  height: 10vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bharathidasan-sports-option,
+.international-sports-option {
+  /* background-color: #afacacb8; */
+  width: max-content;
+
+  /* clip-path: polygon(80% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%, 0 0); */
+  border-bottom-right-radius: 1rem;
+  /* border: 5px ridge black; */
+  border-bottom: 5px solid orangered;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding: 0rem;
+
+  > h1 {
+    font-size: 3rem;
+    color: orangered;
+  }
+  > select {
+    padding-left: 0.5rem;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    background-color: #00000000;
+    position: relative;
+  }
+
+  > select option {
+    font-size: 2rem;
+  }
+}
+.bharathidasan-sports-option h1:before,
+.international-sports-option h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 5px;
+  border-bottom-right-radius: 5rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.bharathidasan-title-and-year-container,
+.international-title-and-year-container {
+  display: flex;
+  width: 92%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  padding: 0rem 0rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bharathidasan-title-and-year-container h1,
+.international-title-and-year-container h1 {
+  flex-basis: 60%;
+  text-align: left;
+  padding: 1rem 0rem;
+  border-bottom: 8px solid orangered;
+  border-bottom-right-radius: 0.5rem;
+  position: relative;
+  color: orangered;
+  margin: 0rem 0rem;
+}
+
+.bharathidasan-title-and-year-container h2:before,
+.international-title-and-year-container h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  width: 100%;
+  height: 5px;
+  border-bottom-right-radius: 5rem;
+  background-color: rgb(0, 0, 0);
+}
+.bharathidasan-title-and-year-container h1:before,
+.international-title-and-year-container h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  width: 100%;
+  height: 5px;
+  border-bottom-right-radius: 5rem;
+  background-color: rgb(0, 0, 0);
+}
+.bharathidasan-title-and-year-container select,
+.international-title-and-year-container select {
+  flex-basis: 10%;
+  height: 5rem;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.bharathidasan-title-and-year-container select option,
+.international-title-and-year-container select option {
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.replace-container {
+  display: none;
+}
+.rem-pad {
+  display: none;
+}
+.golden-jubilee-tournaments-detail-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-1 {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-1 .g-j-t-1-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+  row-gap: 1rem;
+  width: 80%;
+  height: 100%;
+  border-top: 3px solid orangered;
+
+  > h1 {
+    color: orangered;
+    font-size: 3rem;
+    text-align: center;
+  }
+  > p {
+    font-weight: bold;
+    color: gray;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-2 {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-2 .g-j-t-2-container-1 {
+  flex-basis: 50%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  border-right: 1.5px solid orangered;
+  border-top: 3px solid orangered;
+  > h1 {
+    color: orangered;
+    line-height: 3rem;
+    font-size: 2rem;
+    text-align: left;
+  }
+  > p {
+    font-weight: bold;
+    color: gray;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-2 .g-j-t-2-container-2 {
+  padding: 3rem;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  border-left: 1.5px solid orangered;
+  border-top: 3px solid orangered;
+  > h1 {
+    color: orangered;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+  > p {
+    font-weight: bold;
+    color: gray;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-3{
+  width:100%;
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:1rem 0rem;
+
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-3 .price-heading-container{
+  width:100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:2rem 0rem;
+  
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-3 .price-heading-container h1{
+  font-size:3rem;
+  color: orangered;
+
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-3 .price-container{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height: fit-content;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding:2rem 0rem;
+  row-gap:2rem;
+}
+.golden-jubilee-tournaments-detail-container .g-j-t-3 .price-container .price-p p{
+color: #fff;
+font-size: 1.6rem;
+font-weight: bold;
+}
+
+.sports-collection a {
+  all: unset;
+  text-align: center;
+  --b: 3px; /* border thickness */
+  --s: 0.45em; /* size of the corner */
+  --color: #333;
+
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+  color: #333;
+  --_p: var(--s);
+  background: conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p) /
+    calc(100% - var(--b) - 2 * var(--_p)) calc(100% - var(--b) - 2 * var(--_p));
+  transition:
+    0.3s linear,
+    color 0s,
+    background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: 0.6em;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sports-collection a:hover,
+.sports-collection a:focus-visible,
+.sports-collection a:focus {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: 0.05em;
+}
+
+.sports-collection a:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.sports-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 70%;
+  margin: auto;
+  padding: 5rem 1rem;
+  row-gap: 2rem;
+  column-gap: 1.3rem;
+}
+
+#annual-sports-meet h1{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  font-size: 4rem;
+  color: #fff;
+  background-color: #ff4500;
+}
+
+.sports-collection{
+  padding: 0;
+  padding-top: 4rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .sports-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    max-width: 100%;
+    margin: auto;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    max-height: 300px;
+    margin: auto;
+  }
+
+  .sports-collection button {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+}
+@media only screen and (max-width: 550px) {
+  #annual-sports-meet h1{
+    font-size: 3rem;
+  }
+  .sports-collection {
+    max-width: 100%;
+    font-size: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 420px) {
+}
+@media only screen and (max-width: 370px) {
+}
+@media only screen and (max-width: 350px) {
+}
